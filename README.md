@@ -1,20 +1,23 @@
 # backpropagation-computation
 
-__Título: Implementación de una Computación con Backpropagation usando Micrograd__
-Indicaciones: Resuelva el ejercicio propuesto según las indicaciones dadas. Posteriormente, 
-subir su resultado al aula virtual hasta la fecha de finalización asignada.  
-Indicaciones: 
-Implementar la expresión matemática dada en Python utilizando la biblioteca micrograd, 
-asegurando que los valores sean correctamente almacenados como nodos computacionales y que 
-el cálculo de gradientes se realice de manera automática mediante backpropagation. 
-Expresión Matemática a Implementar: 
-�
-�
- 𝐿 =((𝑎𝑎×𝑏𝑏+𝑐𝑐)2+𝑑𝑑+𝑒𝑒×𝑓𝑓)×𝑔𝑔 
+__Título: Implementación de una Computación con Backpropagation usando Micrograd__  
+
+__Indicaciones:__ 
+Implementar la expresión matemática dada en Python utilizando la biblioteca micrograd, asegurando que los valores sean correctamente almacenados como nodos computacionales y que el cálculo de gradientes se realice de manera automática mediante backpropagation. 
+
+La ecuación a implementar es:  
+
+$$ L = \left( (a \times b + c)^2 + d + e \times f \right) \times g $$
+
+
 Donde: 
-• a, b, c, d, e, f, g son valores de entrada 
-• Se debe realizar el cálculo del gradiente de L con respecto a todas las variables mediante 
-backpropagation. 
+
+$$
+a = 2, \quad b = 3, \quad c = 1, \quad d = 1, \quad e = 4, \quad f = 2, \quad g = 5
+$$
+
+Se debe realizar el cálculo del gradiente de L con respecto a todas las variables mediante backpropagation
+
 Requerimientos: 
 1. Definir las variables como instancias de Value de micrograd, asegurando que cada 
 variable tenga una etiqueta representativa. 
