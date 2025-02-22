@@ -2,7 +2,7 @@
 
 __Implementación de una Computación con Backpropagation usando Micrograd__  
 
-__Indicaciones:__ 
+__Indicaciones:__  
 Implementar la expresión matemática dada en Python utilizando la biblioteca micrograd, asegurando que los valores sean correctamente almacenados como nodos computacionales y que el cálculo de gradientes se realice de manera automática mediante backpropagation. 
 
 La ecuación a implementar es:  
