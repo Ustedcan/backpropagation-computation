@@ -131,3 +131,7 @@ def draw_dot(root):
     dot.edge(str(id(n1)), str(id(n2)) + n2._op)
 
   return dot
+
+# Guardar la imagen
+def save_img(dot, filename):
+    dot.render(filename, format='svg', cleanup=True)
